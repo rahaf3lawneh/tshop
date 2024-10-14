@@ -1,0 +1,170 @@
+@import './base.css';
+.header{
+    background-color: hsla(0, 22%, 95%, 0.831);
+    position: fixed;
+    z-index: 1
+    ;
+
+
+}
+
+.header img{
+    width: 8%;
+    height: 8%;
+}
+.menu ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+.menu ul li a{
+    color:  #000;
+   
+}
+
+.auth  {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.login{
+
+    background-color: hsla(0, 32%, 91%, 0.831);
+    color: #000;
+    padding: 11px;
+    border-radius: 10%;
+}
+
+.signup{
+    background-color: rgb(169, 150, 187);
+    padding: 11px;
+    border-radius: 10%;
+    color: #fff;
+}
+
+.menu :hover{
+    color:  rgb(124, 90, 157);
+}
+
+.auth .login:hover{
+    color: rgb(124, 90, 157);
+ }
+
+.auth .signup:hover{
+   color: #000;
+}
+
+.auth i:hover{
+    color: rgb(124, 90, 157);
+
+}
+
+.categories{
+    padding: 135px 37px;
+}
+
+.category{
+    width: 13%;
+    padding:15px ;
+    margin: 8px;
+    border-radius: 30px;
+    background-color:rgb(216, 191, 216,0.2);
+    border: 1px solid rgb(200, 104, 200);
+    box-shadow: 0 4px 8px rgb(216, 191, 216);
+    font-size: 20px;
+    text-align: center;
+}
+
+.category a{
+    color: #000;
+}
+.category:hover {
+    background-color: rgb(169, 150, 187);
+
+}
+
+/*products-start*/
+.products{
+    margin-bottom: 80px;
+}
+
+.products .product img{
+    width: 55%;
+    margin: 15px;
+    padding: 20px;
+}
+
+
+.products .product h3{
+    font-size: 18px;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 60px;
+}
+
+.products .product{
+    width: 239px;
+    height: 306px;
+    background-color:rgba(213, 191, 236, 0.2) ;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px rgb(216, 191, 216);
+    text-align: center;
+    margin: 10px;
+
+}
+
+/*products-end*/
+
+/*footer-start*/
+
+.footer{
+    background-color: #000;
+    padding: 100px;
+    color: #fff;
+}
+
+.footer-start{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 180px;
+    
+}
+
+.footer-start nav{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.footer-start h2{
+    color: rgb(124, 90, 157);
+    margin-bottom: 25px;
+}
+
+.footer-start a,
+span{
+    color: #fff;
+    margin-top: 10px;
+}
+
+.contact{
+    display: flex;
+    gap: 15px;
+}
+
+.socialMedia{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin: auto;
+    
+}
+
+/*footer-end*/
+
+
+
+
+
